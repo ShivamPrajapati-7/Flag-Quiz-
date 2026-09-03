@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".view.Fragment_Home">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        android:textSize="34sp"
+        android:layout_marginStart="45dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="45dp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:gravity="center"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_subtext"
+        android:layout_marginStart="45dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="45dp"
+        android:gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/startbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        app:cornerRadius="10dp"
+        android:backgroundTint="@color/startbtn"
+        android:textColor="@color/background"
+        android:layout_marginTop="150dp"
+        android:text="@string/start_btn"
+        android:textSize="24dp"/>
+
+
+</LinearLayout>
