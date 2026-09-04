@@ -10,4 +10,8 @@
     <string name="wrong">Wrong</string>
     <string name="question">Which country does this flag belongs to?</string>
     <string name="answer">Answer</string>
+    <string name="result_head">Result</string>
+    <string name="next_btn">Skip</string>
+    <string name="restart">Restart Quiz</string>
+    <string name="exit">Exit</string>
 </resources>
