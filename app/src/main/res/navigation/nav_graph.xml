@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_Home">
+
+    <fragment
+        android:id="@+id/fragment_Home"
+        android:name="com.shivaminteractive.flagquiz.view.Fragment_Home"
+        android:label="fragment__home"
+        tools:layout="@layout/fragment__home" >
+        <action
+            android:id="@+id/action_fragment_Home_to_fragmentQuiz"
+            app:destination="@id/fragmentQuiz"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentQuiz"
+        android:name="com.shivaminteractive.flagquiz.view.FragmentQuiz"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_fragmentQuiz_to_resultFragment"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@android:anim/accelerate_decelerate_interpolator" />
+        <argument
+            android:name="correct"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="wrong"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="empty"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.shivaminteractive.flagquiz.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+</navigation>

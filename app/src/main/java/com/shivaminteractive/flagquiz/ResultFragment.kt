@@ -21,7 +21,7 @@ class ResultFragment : Fragment() {
 
 
         }
-        
+
         fragmentResultBinding.exit.setOnClickListener {
 
 
