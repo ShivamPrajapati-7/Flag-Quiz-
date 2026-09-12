@@ -22,8 +22,8 @@
 
     <com.github.mikephil.charting.charts.BarChart
         android:id="@+id/barChart"
-        android:layout_width="411dp"
-        android:layout_height="491dp"
+        android:layout_width="405dp"
+        android:layout_height="512dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialTextView" />
@@ -32,6 +32,7 @@
         android:id="@+id/exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/option_btn"
         android:text="@string/exit"
         android:textColor="@color/background"
@@ -39,7 +40,7 @@
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialButton2"
         app:layout_constraintVertical_bias="0.5" />
@@ -48,14 +49,14 @@
         android:id="@+id/restart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/restart"
-        android:textStyle="bold"
-        android:textColor="@color/background"
+        android:layout_marginTop="16dp"
         android:background="@drawable/option_btn"
+        android:text="@string/restart"
+        android:textColor="@color/background"
+        android:textStyle="bold"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toTopOf="@+id/materialButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/barChart"
         app:layout_constraintVertical_bias="0.5" />
