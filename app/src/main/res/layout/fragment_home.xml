@@ -40,7 +40,6 @@
         android:textColor="@color/background"
         android:layout_marginTop="150dp"
         android:text="@string/start_btn"
-        android:textSize="24dp"/>
-
+        android:textSize="24sp"/>
 
 </LinearLayout>

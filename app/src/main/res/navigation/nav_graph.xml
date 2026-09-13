@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/fragment_Home"
         android:name="com.shivaminteractive.flagquiz.view.Fragment_Home"
-        android:label="fragment__home"
-        tools:layout="@layout/fragment__home" >
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_fragment_Home_to_fragmentQuiz"
             app:destination="@id/fragmentQuiz"
